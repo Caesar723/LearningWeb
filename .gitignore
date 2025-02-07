@@ -1,0 +1,56 @@
+# 忽略所有 .env 文件（包含敏感信息）
+.env
+.env.local
+.env.development
+.env.production
+
+# 忽略前端依赖目录
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# 忽略 Python 虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log
+logs/
+
+# 忽略数据库文件
+*.db
+*.sqlite3
+
+# 忽略前端构建文件
+frontend/.cache/
+frontend/.svelte-kit/
+frontend/build/
+
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略测试覆盖率报告
+coverage/
+htmlcov/
+*.coveragerc
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略 Docker 相关文件
+docker-compose.override.yml
+.vercel
