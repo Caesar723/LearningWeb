@@ -3,7 +3,8 @@
 .env.local
 .env.development
 .env.production
-
+backend/.env
+*.env
 # 忽略前端依赖目录
 frontend/node_modules/
 frontend/.next/
